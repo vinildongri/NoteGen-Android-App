@@ -11,7 +11,7 @@ import com.example.notegen.BuildConfig
 object RetrofitInstance {
 
 
-    // 🔓 Public (Login / Register)
+    // 🔓 Public (Login / Registers)
     private val publicRetrofit: Retrofit by lazy {
         Retrofit.Builder()
             .baseUrl(BuildConfig.BASE_URL)
